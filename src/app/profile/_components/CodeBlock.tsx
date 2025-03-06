@@ -4,10 +4,7 @@ import { useState } from "react";
 import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import React from 'react';
 
-// import SyntaxHighlighter from "react-syntax-highlighter";
-import {Prism, SyntaxHighlighterProps} from 'react-syntax-highlighter';
-
-const SyntaxHighlighter = Prism as typeof React.Component<SyntaxHighlighterProps>;
+import SyntaxHighlighter from "react-syntax-highlighter";
 
 interface CodeBlockProps {
   code: string;
