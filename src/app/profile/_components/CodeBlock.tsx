@@ -3,7 +3,7 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
-import {SyntaxHighlighter} from "react-syntax-highlighter";
+import SyntaxHighlighter from "react-syntax-highlighter";
 
 interface CodeBlockProps {
   code: string;
