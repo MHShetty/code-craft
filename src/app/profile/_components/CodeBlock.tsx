@@ -3,8 +3,7 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
-import {Prism, SyntaxHighlighterProps} from "react-syntax-highlighter";
-const SyntaxHighlighter = Prism as React.FC<SyntaxHighlighterProps>;
+import {SyntaxHighlighter} from "react-syntax-highlighter";
 
 interface CodeBlockProps {
   code: string;
